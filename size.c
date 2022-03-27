@@ -2,9 +2,16 @@
 #include <stdlib.h>
 void main()
 {
-    //32ë¹„íŠ¸ ì»´íŒŒì¼ëŸ¬minG
-    int **x;
+    printf("[----- [ÀÌÂù] [2019038029] -----]\n");
+    //32ºñÆ® ÄÄÆÄÀÏ·¯minG»ç¿ëÇÏ¿© ÁøÇàµÊ
+    int **x; //ÀÌÁßÆ÷ÀÎÅÍ º¯¼ö x ¼±¾ð
     printf("sizeof(x) = %lu\n", sizeof(x));
+    // x =  Æ÷ÀÎÅÍ¸¦ °¡¸®Å°´Â Æ÷ÀÎÅÍÀÇ Å©±â= 32ºñÆ® ÁÖ¼Ò¸¦ ¹ÞÀ» °ø°£ = 4¹ÙÀÌÆ® 
     printf("sizeof(*x) = %lu\n", sizeof(*x));
+    // *x = intÇü °ø°£À» °¡¸®Å°´Â Æ÷ÀÎÅÍÀÇ Å©±â = 32ºñÆ® ÁÖ¼Ò¸¦ ¹ÞÀ»°ø°£ =4¹ÙÀÌÆ®
     printf("sizeof(**x) = %lu\n", sizeof(**x));
+    // ½ÇÁ¦ intÇü °ªÀÌ µé¾î°¥ ÀúÀå °ø°£ = intÀÇ Å©±â 4¹ÙÀÌÆ®
+
+    //64ºñÆ® ÄÄÆÄÀÏ·¯ ¿¡¼­´Â ÁÖ¼Ò¸¦ ¹ÞÀ» °ø°£ 64ºñÆ® = 8¹ÙÀÌÆ®ÀÌ±â¶§¹®¿¡
+    //Æ÷ÀÎÅÍÀÇ Å©±â°¡ 8¹ÙÀÌÆ® ·Î Ãâ·ÂµÊ
 }
